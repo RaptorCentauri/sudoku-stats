@@ -1,9 +1,9 @@
 version: 2.1 # use CircleCI 2.1
 
 executors:
-	node-11-executor:
+	node-14-executor:
 		docker:
-			- image: circleci/node:11.0
+			- image: circleci/node:14.0
 
 commands:
 	install_npm:
