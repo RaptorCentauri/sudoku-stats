@@ -1,0 +1,34 @@
+version: 2.1 # use CircleCI 2.1
+
+executors:
+	node-14-executor:
+		docker:
+			- image: circleci/node:14.0
+
+commands:
+	install_npm:
+		description: "Install the latest npm version"
+		steps:
+			- run: 'sudo npm install -g npm@latest'
+	install_dependencies:
+		description: "Install project dependencies"
+		steps:
+			- run: npm install
+	test_code:
+		description: "Test the code"
+		steps:
+			- run: npm test
+	test_coverage:
+		description: "Check the code coverage"
+		steps:
+			- run: npm run coverage
+
+jobs:
+	build:
+		executor: node-11-executor
+		steps:
+			- checkout
+			- install_npm
+			- install_dependencies
+			- test_code
+			- test_coverage
