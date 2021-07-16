@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
-    "coverage": "jest --coverage && codecov"
+    "coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage && codecov"
   },
   "jest": {
     "transform": {},
