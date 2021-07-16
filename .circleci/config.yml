@@ -25,7 +25,7 @@ commands:
 
 jobs:
   build:
-    executor: node-11-executor
+    executor: node-14-executor
     steps:
       - checkout
       - install_npm
