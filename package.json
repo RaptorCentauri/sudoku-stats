@@ -17,7 +17,7 @@
       "js"
     ]
   },
-  "keywords": ["sudoku", "sudoku-helper"],
+  "keywords": ["sudoku", "sudoku-helper", "sudoku-stats"],
   "repository": "https://github.com/RaptorCentauri/sudoku-stats",
   "author": "RaptorCentauri",
   "license": "ISC",
