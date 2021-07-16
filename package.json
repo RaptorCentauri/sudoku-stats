@@ -1,0 +1,28 @@
+{
+  "name": "sudoku-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sudoku.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "jest": {
+    "transform": {},
+    "verbose": true,
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "testRegex": "(/__tests__/.*.(test|spec)).(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "keywords": ["sudoku", "sudoku-helper"],
+  "author": "RaptorCentauri",
+  "license": "ISC",
+  "devDependencies": {
+    "codecov": "^3.8.2",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6"
+  }
+}
