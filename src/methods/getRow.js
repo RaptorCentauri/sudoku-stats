@@ -1,7 +1,7 @@
 const getRow= function(row) {
 	try {
 		if(row > 9){
-			throw new Error('Row out of bounds')
+			throw new Error(`Row out of bounds`)
 		}
 		
 		return this._sudoku[row - 1]	
