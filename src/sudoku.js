@@ -7,10 +7,6 @@ class Sudoku {
 		return new Proxy(this, handler)
 	}
 	
-	sayHi(){
-		console.log('HI!')
-	}
-	
 	hasValidTotal = index.hasValidTotal
 	hasValidRowTotal = index.hasValidRowTotal
 	hasValidColumnTotal = index.hasValidColumnTotal
