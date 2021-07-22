@@ -2,7 +2,7 @@
   "name": "sudoku-stats",
   "version": "1.0.2",
   "description": "",
-  "main": "sudoku.js",
+  "main": "src/sudoku.js",
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
