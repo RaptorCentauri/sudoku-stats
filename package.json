@@ -1,6 +1,6 @@
 {
   "name": "sudoku-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "src/sudoku.js",
   "type": "module",
