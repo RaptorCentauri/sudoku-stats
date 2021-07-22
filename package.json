@@ -1,6 +1,6 @@
 {
   "name": "sudoku-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "sudoku.js",
   "type": "module",
@@ -18,7 +18,11 @@
       "js"
     ]
   },
-  "keywords": ["sudoku", "sudoku-helper", "sudoku-stats"],
+  "keywords": [
+    "sudoku",
+    "sudoku-helper",
+    "sudoku-stats"
+  ],
   "repository": "https://github.com/RaptorCentauri/sudoku-stats",
   "author": "RaptorCentauri",
   "license": "ISC",
