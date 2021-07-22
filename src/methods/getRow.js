@@ -2,7 +2,7 @@
  * Will return and array containing the digits in the given row of the sudoku
  *
  * @param {number} row - an integer representing the row number in the sudoku, from 1-9
- * @returns {array}
+ * @returns {number[]}
  */
 
 const getRow= function(row) {

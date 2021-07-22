@@ -1,3 +1,9 @@
+/**
+ * Will return true if all digits in the given box sum to 45
+ * @param {number} box - an integer representing the box number in the sudoku, from 1-9
+ * @returns {boolean}
+ */
+
 const hasValidBoxTotal= function(box) {
 	const boxIndex = {
 		1: 0,

@@ -1,5 +1,6 @@
 /**
- * @param {number} row - the row of the sudoku to check
+ * Will return true if all digits in the given row sum to 45
+ * @param {number} row - an integer representing the row number in the sudoku, from 1-9
  * @returns {boolean}
  */
   
@@ -8,3 +9,4 @@ const hasValidRowTotal = function(row) {
 }
 
 export default hasValidRowTotal
+

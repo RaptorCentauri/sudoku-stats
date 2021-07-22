@@ -1,3 +1,10 @@
+/**
+ * Will return and array containing the digits in the given box of the sudoku
+ *
+ * @param {number} box - an integer representing the row number in the sudoku, from 1-9
+ * @returns {number[]}
+ */
+
 const getBox = function(box){
 	const boxIndex = {
 		1: 0,

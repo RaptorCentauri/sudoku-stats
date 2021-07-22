@@ -1,6 +1,6 @@
 /**
- * Returns true if the sum of all numbers in Sudoku equal 405
- * @returns {boolean}  - description
+ * Will return true if all digits in the sudoku sum to 405
+ * @returns {boolean}
  */
  
 const hasValidTotal = function() {
